@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FeedForward - Food Rescue</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🍱 FeedForward</h1>
+  <p>No Food Waste | Feed The Future</p>
+</header>
+
+<nav>
+  <button onclick="showSection('donate')">Donate Food</button>
+  <button onclick="showSection('available')">Available Food</button>
+</nav>
+
+<section id="donate">
+  <h2>Donate Surplus Food</h2>
+  <form id="foodForm">
+    <input type="text" id="donorName" placeholder="Your Name / Restaurant Name" required>
+    <input type="text" id="foodType" placeholder="Food Type (ex: Veg Biryani - 10 plates)" required>
+    <input type="text" id="location" placeholder="Location - Coimbatore" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+    <button type="submit">Post Food Donation</button>
+  </form>
+</section>
+
+<section id="available" style="display:none;">
+  <h2>Available Near You</h2>
+  <div id="foodList"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
