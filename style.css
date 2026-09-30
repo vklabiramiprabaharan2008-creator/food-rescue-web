@@ -1,0 +1,8 @@
+body { font-family: Poppins, sans-serif; margin:0; background:#fef9f0; }
+header { background:#ff6b35; color:white; text-align:center; padding:20px; }
+nav { text-align:center; margin:20px; }
+nav button { padding:10px 20px; margin:5px; background:#2a9d8f; color:white; border:none; border-radius:20px; cursor:pointer; }
+section { max-width:600px; margin:auto; background:white; padding:20px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+input { width:100%; padding:12px; margin:8px 0; border-radius:8px; border:1px solid #ddd; }
+form button { width:100%; background:#ff6b35; color:white; padding:12px; border:none; border-radius:8px; font-weight:bold; }
+.food-card { border-left:4px solid #2a9d8f; padding:15px; margin:10px 0; background:#f7fff7; border-radius:8px; }
